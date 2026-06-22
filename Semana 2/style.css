@@ -1,0 +1,72 @@
+body{
+    background-color:#9e69ff;
+    font-family:Arial,sans-serif;
+}
+
+.hero{
+    background:linear-gradient(to right,#391ed2,#6f00ff);
+    color:white;
+    padding:50px;
+    border-radius:10px;
+}
+
+.titulo-seccion{
+    background:#6f00ff;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+.card{
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h5, .card p {
+    color:#000000 !important;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.aside-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+footer{
+    background:#391ed2;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+.btn{
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+
+    .hero{
+        padding:25px;
+    }
+
+    h1{
+        font-size:28px;
+    }
+
+}
